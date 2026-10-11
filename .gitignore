@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.cache/
+
+# Trọng số, dataset và kết quả train thường rất nặng — không đưa lên git
+weights/*.pt
+datasets/*
+!datasets/.gitkeep
+runs/*/*
+!runs/yolo/.gitkeep
+!runs/rfdetr/.gitkeep

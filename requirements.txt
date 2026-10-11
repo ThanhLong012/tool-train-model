@@ -1,0 +1,9 @@
+# Yêu cầu Python >= 3.10 (rfdetr yêu cầu). macOS cho nhiệt độ máy (thermal.py); chạy được trên
+# Linux/Windows nhưng tab nhiệt độ sẽ hiện "Không đọc được".
+ultralytics>=8.4
+rfdetr[train]
+gradio>=4.44
+pandas
+pyyaml
+pillow
+psutil
